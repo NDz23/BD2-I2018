@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52B32965-94BD-EF26-E494-5E8856341A8E" name="TBL_USUARIOS">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:24:07 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="FDD3B9CC-4839-336D-7AB4-A56E98199C40">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:25:43 UTC</createdTime>
+<commentInRDBMS>Código de usuario.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_USUARIO" id="5ACE151A-7A08-D47B-06EE-1A0724127200">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 13:04:09 UTC</createdTime>
+<commentInRDBMS>Código del tipo de usuario, éste podría ser un usuario normal, administrador o source.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B169F81-4497-9491-C124-A4CBCA0C5615" referredColumn="73604F28-F0C9-5820-FF6D-FD79B9B9325D"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="187929BB-E23C-42B9-6DE2-6DF7C7621033">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 13:04:42 UTC</createdTime>
+<commentInRDBMS>Lugar de residencia, específicamente podría ser el país para hacer un mejor filtrado de noticias.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C25C7B6-EF3C-67A3-57E4-D2A5F354A6AA" referredColumn="B6161D4C-34D7-513F-0E8E-9827BA32E940"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_USUARIO" id="CA801BC5-DDB0-19E8-A501-EE02CC2B6D80">
+<createdBy>diazn</createdBy>
+<createdTime>2017-10-03 00:57:57 UTC</createdTime>
+<commentInRDBMS>Indica si el usuario es una cuenta verificada.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E22299BE-0A3E-D8FC-5284-F7AB1D042CB8" referredColumn="D1172401-E994-C407-66F5-B3BEC0415EF8"/>
+</associations>
+</Column>
+<Column name="NOMBRE_USUARIO" id="2263BCCA-8E39-AE51-25F7-747CADD026E6">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:25:43 UTC</createdTime>
+<commentInRDBMS>Nombre, alias o nombre corporativo del usuario.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS_USUARIO" id="84783E4B-5C85-ADCC-45F1-23A715162841">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-10-16 13:46:43 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="EA062311-9AC5-A699-4C54-B4EE30F0BBDA">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:25:43 UTC</createdTime>
+<commentInRDBMS>Correo del usuario</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="9CE2B56A-5E6C-A162-8AA9-838D2E91D2A0">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:25:43 UTC</createdTime>
+<commentInRDBMS>Contraseña del usuario.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_FOTO_PERFIL" id="06A59DCB-77E7-3FEE-88F6-147553BCDEB0">
+<createdBy>dilve_000</createdBy>
+<createdTime>2017-06-20 17:24:09 UTC</createdTime>
+<commentInRDBMS>Foto de perfil que el usuario selecciona.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="DF5DB34B-5789-CF0A-619C-657FE04C6E14">
+<createdBy>dilve_000</createdBy>
+<createdTime>2017-06-20 17:24:09 UTC</createdTime>
+<commentInRDBMS>Espacio nombrado &quot;Escribe algo sobre ti&quot;.</commentInRDBMS>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="36C13F35-492F-4635-4AD1-E1C1CC8A27A7">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-11-04 20:15:41 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9484BB6D-4B8B-7C1B-4DDA-C7B9A77634B4" name="TBL_USUARIOS_PK">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 12:25:43 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDD3B9CC-4839-336D-7AB4-A56E98199C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA6DE097-6F4D-6E69-9083-B540C800B421" name="USU_TIP_USU_FK">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 13:04:09 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ACE151A-7A08-D47B-06EE-1A0724127200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="733F6E75-604F-E0CB-2EE7-FA7328B92C4F" name="USU_LUG_FK">
+<createdBy>Kelly Aguilar</createdBy>
+<createdTime>2017-06-14 13:04:42 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="187929BB-E23C-42B9-6DE2-6DF7C7621033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CEA0AAE-F03C-3AD9-05AA-55DA578336EE" name="USU_EST_USU_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-10-03 00:57:57 UTC</createdTime>
+<ownerDesignName>BD_FLIPBOARD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA801BC5-DDB0-19E8-A501-EE02CC2B6D80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
