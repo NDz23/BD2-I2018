@@ -1,6 +1,15 @@
 ﻿                                --PROCEDIMIENTOS ALMACENADOS
 
 --Procedimiento para flipear un noticia.
+
+create or replace 
+
+
+
+
+
+
+  
 create or replace PROCEDURE P_FLIPEAR
   (
     P_CODIGO_NOTICIA IN INTEGER,
