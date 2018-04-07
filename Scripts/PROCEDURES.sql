@@ -2,13 +2,6 @@
 
 --Procedimiento para flipear un noticia.
 
-create or replace 
-
-
-
-
-
-
   
 create or replace PROCEDURE P_FLIPEAR
   (
