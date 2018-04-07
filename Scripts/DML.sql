@@ -287,8 +287,6 @@ VALUES (1, 7, 'XATAKA', 'Apasionados por la tecnología.', TO_DATE('17/01/2017',
 INSERT INTO TBL_REVISTAS (CODIGO_TIPO_REVISTA, CODIGO_USUARIO, NOMBRE_REVISTA, DESCRIPCION, FECHA_DE_CREACION,URL_PORTADA)
 VALUES (1, 8, 'HIPERTEXTUAL', 'Tecnología, ciencia y cultura digital', TO_DATE('17/01/2017', 'DD/MM/YYYY'),'images/revistas/YEvW6EJ.jpg');
 INSERT INTO TBL_REVISTAS (CODIGO_TIPO_REVISTA, CODIGO_USUARIO, NOMBRE_REVISTA, DESCRIPCION, FECHA_DE_CREACION,URL_PORTADA)
-VALUES (1, 9, 'MOTORPASIÓN', 'Coches y actualidad del mundo del Motor', TO_DATE('01/11/2017', 'DD/MM/YYYY'),'https://i.blogs.es/97adc8/tesla-model-x-motorpasion-prueba-31/450_1000.jpg');
-INSERT INTO TBL_REVISTAS (CODIGO_TIPO_REVISTA, CODIGO_USUARIO, NOMBRE_REVISTA, DESCRIPCION, FECHA_DE_CREACION,URL_PORTADA)
 VALUES (1, 6, 'REVISTA ¡HOLA!', 'Las novedades sobre las estrellas de cine y música, tendencias de moda, belleza, recetas de cocina y las Casas Reales en el portal femenino líder en Internet. ', TO_DATE('17/10/2017', 'DD/MM/YYYY'),'https://www.himgs.com/imagenes/hola/comunes/svg/holacom-pos-16.svg');
 --Revistas "Leer mas tarde" no tiene descripcion, tampoco imagen
 INSERT INTO TBL_REVISTAS (CODIGO_TIPO_REVISTA, CODIGO_USUARIO, NOMBRE_REVISTA, FECHA_DE_CREACION)
