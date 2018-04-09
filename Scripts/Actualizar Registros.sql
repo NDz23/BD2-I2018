@@ -13,3 +13,6 @@ END;
 @"C:\Users\Leonardo\Documents\GitHub\BD2-I2018\Scripts\DDL.sql";
 --INSERCION DE DATOS (LEONARDO)
 @"C:\Users\Leonardo\Documents\GitHub\BD2-I2018\Scripts\DML.sql";
+
+--Insercion de registros (Abner)
+@"C:\Users\Abner\Documents\GitHub\BD2-I2018\Scripts\DML.sql";
