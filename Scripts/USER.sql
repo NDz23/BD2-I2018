@@ -16,7 +16,9 @@ GRANT create sequence TO DB_FLIPBOARD;
 GRANT create materialized view TO DB_FLIPBOARD;
 GRANT select any table TO DB_FLIPBOARD;
 GRANT create synonym TO DB_FLIPBOARD;
-
+grant select any dictionary to DB_FLIPBOARD;
+grant select any sequence to DB_FLIPBOARD;
+grant create any type to DB_FLIPBOARD;
 
 --Crear nuevo usuario(esquema) con el password "leonardo" 
 CREATE USER leonardo
