@@ -1,0 +1,37 @@
+1.- Se crea un usuario para la replicacion llamado "REPLICACION" con clave acceso "sqlserver".
+2.- Se le asignan los privilegios (al usuario antes creado) de lectura, escritura y propiedad sobre la base de datos a replicar.
+3.- Repetimos los pasos 1 y 2 para otro usuario llamado "REPLICACION2" con clave de acceso "sqlserver".
+4.- Procedemos a crear una nueva publicacion.
+5.- Elegimos el distribuidor.
+6.- Configuramos el servicio de SQL Server para que se inicie automaticamente.
+7.- Elegimos una ruta para la carpeta de instantaneas.
+8.- Elegimos la base de datos a replicar.
+9.- Seleccionamos una publicacion transaccional.
+10.- Seleccionamos todas las tablas para su replicacion.
+11.- Nos aseguramos de que las instantaneas se creen inmediatamente.
+12.- Configuramos la seguridad del agente.
+13.- Configuramos para que se conecte a traves del primer usuario creado.
+14.- El agente esta configurado, damos a siguiente.
+15.- Empezamos los pasos para crear la publicacion.
+16.- Elegimos el nombre de la publicacion y dejamos que se cree.
+17.- Una vez creado, si el agente no se configuro para iniciar automaticamente, deberemos hacerlo nosotros.
+     Si el agente se configuro correctamente, saltar al paso 20.
+18.- Clic derecho sobre el Agente SQL Server y seleccionamos propiedades.
+19.- Hacemos que el Agente se reinicie automaticamente en caso de detenerse
+20.- Procedemos a crear una nueva suscripcion.
+21.- Seleccionamos la publicacion antes creada.
+22.- Ejecutamos todos los agentes en el distribuidor.
+23.- Agregamos un suscriptor de SQL Server
+24.- Conectamos con el segundo usuario que creamos.
+25.- Seleccionamos la base de datos del suscritor
+26.- Configuramos el agente del suscriptor.
+27.- Configuramos como se muestra en la imagen.
+28.- Seleccionamos que la sincronizacion se ejecute continuamente.
+29.- Inicializamos la suscipcion inmediatamente.
+30.- Elegimos que cree los suscriptores.
+31.- Finalizamos la creacion del suscriptor.
+32.- Se empieza a crear la suscripcion.
+33.- La suscipcion se creo exitosamente.
+34.- Verificamos el estado del Agente de instantaneas.
+35.- Vemos que se ha generado correctamente una instantanea de 25 articulos (las tablas de la base de datos).
+36.- Todo esta listo, para probar, se inserta un registro en cualquier tabla con el primer usuario y se verifica se refleje tambien en la base de datos del segundo usuario.
