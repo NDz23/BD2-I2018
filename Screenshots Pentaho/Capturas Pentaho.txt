@@ -1,0 +1,21 @@
+1.	Primero creamos un nuevo Data Source
+2.	En la ventana emergente seleccionamos Database Table(s)
+3.	Antes de crear el Data Source, agregaremos una nueva conexion (click en el '+')
+4.	Seleccionamos que tipo de motor o gestor vamos a conectar, en nuestro caso 'MS SQL Server', 
+	agregamos el nombre de Host, nombre de Base de datos, configuramos el puerto (por defecto 1433) e ingresamos con un usuario valido del gestor
+5.	Ahora probaremos la conexion	
+6.	Como la conexion ha sido un exito, procederemos a continuar
+7.	Le asignamos un nombre a nuestro Data Source y seleccionamos la conexion que acabamos de crear (Tambien especificamos en la parte de abajo que es para reporte 
+	y analisis)
+8.	Seleccionamos las tablas con las que trabajaremos y las agregaremos en el espacio del lado derecho 
+9.	Una vez terminado eso, seleccionamos la tabla de hechos
+10.	Agregamos los join de la tabla de hechos que estan relacionados con las demas tablas que agregamos, y finalizamos nuestro Data Source
+11.	Dejamos la opcion por defecto y continuamos con la creacion de reportes
+12.	Nos iremos a Create New -> Analysis Report
+13.	Seleccionamos el Data Source que creamos
+14.	Ahora simplemente arrastrando los campos que queramos en los espacios de 'Rows', 'Columns' y 'Measures' Creamos el reporte
+15.	Una vez finalizado el reporte que queremos, procederemos a guardarlo
+16.	Para crear un reporte interativo, accederemos en la parte de menu en la pestaña File, New y por ultimo Interactive Report
+17.	Nuevamente seleccionamos nuestro Data Source
+18.	De la misma manera, simplemente arrastrando los campos deseados, creamos el reporte
+19.	Finalmente guardamos el reporte cuando consideremos que esta listo
