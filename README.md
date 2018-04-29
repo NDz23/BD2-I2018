@@ -1,1 +1,2 @@
-# BD2-I2018
+# Bases de Datos 2 Primer Periodo 2018
+Proyecto Final
